@@ -7,7 +7,7 @@
     <title>Envio de encomenda en caja</title>
 </head>
 <body>
-    <form>
+    <form name="formulario" action="javascript:enviar()">
         <label for="name">Nombre del cliente:</label>
         <input type="text" id="name" name="name"><br />
 
@@ -27,7 +27,8 @@
             <input type="radio" id="grande" name="dimensionCaja" value="Grande">
             <label for="grande">Grande</label>
         <p>Comentário:</p>
-        <textarea id="comentario" name="comentario" rows="10" cols="30" placeholder="Escriba un comentário"></textarea>
+        <textarea id="comentario" name="comentario" rows="10" cols="30" placeholder="Escriba un comentário"></textarea><br />
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>

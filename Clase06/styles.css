@@ -1,0 +1,81 @@
+body {
+    background: url(assets/bg-palm.jpg);
+}
+.container {
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+.avatar {
+    width: 100%;
+    height: 30%;
+    background: url(assets/avatar-ej1.png) no-repeat center center;
+    background-size: contain;
+    margin: 100px;
+}
+.name {
+    width: 100%;
+    height: 10%;
+}
+.name p {
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.linktree {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.linktree a {
+    width: 50%;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 3em;
+    color: black;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+.linktree a:hover {
+    background-color: whitesmoke;
+    color: #00d5b3;
+}
+.icon {
+    width: 10%;
+    color: #00d5b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link {
+    width: 90%;
+}
+.link p {
+    text-align: center;
+    font-weight: bold;
+}
+.socials {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socials i {
+    color: black;
+}
+.socials i:hover {
+    color: #00d5b3;
+}
