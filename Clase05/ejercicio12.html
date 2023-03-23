@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Envio de encomenda en caja</title>
+    <script>
+        function formarFrase() {
+            let name = document.getElementById("name").value;
+            let material = document.getElementById("material").value;
+            let dimensionCaja = document.querySelector('input[name="dimensionCaja"]:checked');
+            let dimensionCajaValue = dimensionCaja.value;
+            let comentario = document.getElementById("comentario").value;
+            document.getElementById("textoFinal").value = name + " ha pedido una caja de " + material + " con una dimencion " + dimensionCajaValue + ". " + comentario
+        }
+    </script>
 </head>
 <body>
     <form name="formulario" action="javascript:enviar()">
@@ -22,13 +32,14 @@
         <p>Seleccione una dimensión para la caja:</p>
             <input type="radio" id="diminuta" name="dimensionCaja" value="Diminuta">
             <label for="diminuta">Diminuta</label><br>
-            <input type="radio" id="mediano" name="dimensionCaja" value="Mediano">
-            <label for="css">Mediano</label><br>
+            <input type="radio" id="mediano" name="dimensionCaja" value="Mediana">
+            <label for="css">Mediana</label><br>
             <input type="radio" id="grande" name="dimensionCaja" value="Grande">
             <label for="grande">Grande</label>
         <p>Comentário:</p>
         <textarea id="comentario" name="comentario" rows="10" cols="30" placeholder="Escriba un comentário"></textarea><br />
-        <button type="submit">Enviar</button>
+        <button type="submit" onclick="formarFrase()">Enviar</button>
+        <input type="text" name="textoFinal" id="textoFinal">
     </form>
 </body>
 </html>

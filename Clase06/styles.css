@@ -3,7 +3,13 @@ body {
 }
 .container {
     width: 100%;
-    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-linktree {
+    width: 50%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -12,19 +18,17 @@ body {
     align-content: stretch;
 }
 .avatar {
-    width: 100%;
-    height: 30%;
+    width: 160px;
+    height: 160px;
     background: url(assets/avatar-ej1.png) no-repeat center center;
-    background-size: contain;
-    margin: 100px;
+    background-size: cover;
 }
 .name {
     width: 100%;
-    height: 10%;
 }
 .name p {
     text-align: center;
-    font-size: 5em;
+    font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -34,32 +38,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
 }
 .linktree a {
-    width: 50%;
+    width: 100%;
     text-decoration: none;
-    margin: 10px;
-    font-size: 3em;
+    margin: 30px;
+    font-size: 1em;
     color: black;
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 .linktree a:hover {
     background-color: whitesmoke;
     color: #00d5b3;
 }
 .icon {
-    width: 10%;
+    width: 25%;
     color: #00d5b3;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .link {
-    width: 90%;
+    width: 100%;
 }
 .link p {
     text-align: center;
@@ -71,7 +74,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .socials i {
     color: black;
