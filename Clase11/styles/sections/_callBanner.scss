@@ -1,0 +1,21 @@
+.callBanner {
+    min-height: 430px;
+    background: url(../assets/banner-secundario.jpg) center top  no-repeat;
+    background-size: cover;
+}
+.btn__callBanner {
+    background: $rosa;
+    color: $gris;
+}
+.btn__callBanner:hover,
+.btn__callBanner:active:hover {
+    background: darken($color: $rosa, $amount: 20);
+    color: $gris;
+    border-color: darken($color: $rosa, $amount: 20);
+}
+.callBanner h1 {
+    color: $gris;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}

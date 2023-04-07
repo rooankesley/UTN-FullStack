@@ -1,0 +1,11 @@
+.btn__login {
+    background: $rosa;
+    color: $gris;
+    width: 150px;
+}
+.btn__login:hover,
+.btn__login:active:hover {
+    background: darken($color: $rosa, $amount: 20);
+    color: $gris;
+    border-color: darken($color: $rosa, $amount: 20);
+}

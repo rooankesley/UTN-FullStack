@@ -1,0 +1,33 @@
+.helpBlock {
+    min-height: 435px;
+}
+.helpBlock h1 {
+    color: $azul;
+}
+.helpBlock .icon {
+    width: 100px;
+    height: 100px;
+}
+.iconHelp {
+    background: url(../assets/icono-preguntas.svg) center center no-repeat;
+    background-size: contain;
+}
+.iconProfessionals {
+    background: url(../assets/icono-profesionales.svg) center center no-repeat;
+    background-size: contain;
+}
+.iconSchedule {
+    background: url(../assets/icono-agenda.svg) center center no-repeat;
+    background-size: contain;
+}
+.text-HelpBlock {
+    text-align: center;
+}
+.text-HelpBlock p {
+    font-size: 22px;
+}
+.text-HelpBlock b,
+.text-HelpBlock strong {
+    font-size: 28px;
+    color: $rosa;
+}

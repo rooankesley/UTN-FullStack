@@ -1,0 +1,19 @@
+.callToAction {
+    min-height: 140px;
+    background-color: $rosa;
+    color: #fff;    
+}
+.callToAction h1 {
+    font-size: 23px;
+}
+.btn__calltoaction {
+    background: $rosa;
+    color: #fff;
+    border-color: #fff;
+}
+.btn__calltoaction:hover,
+.btn__calltoaction:active:hover {
+    background: darken($color: $rosa, $amount: 20);
+    color: #fff;
+    border-color: #fff;
+}

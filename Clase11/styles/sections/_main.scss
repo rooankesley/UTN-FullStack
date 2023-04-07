@@ -1,0 +1,27 @@
+.main {
+    background: url(../assets/banner-principal.jpg) center top  no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+.btn__start {
+    background: $rosa;
+    color: $gris;
+}
+.btn__start:hover,
+.btn__start:active:hover {
+    background: darken($color: $rosa, $amount: 20);
+    color: $gris;
+    border-color: darken($color: $rosa, $amount: 20);
+}
+h1 {
+    color: $gris;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+h2 {
+    color: $gris;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}

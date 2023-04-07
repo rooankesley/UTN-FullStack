@@ -1,0 +1,39 @@
+.faqs {
+    min-height: 670px;
+    background-color: $gris;
+}
+.faqs h1 {
+    color: $azul;
+}
+.img__faqs {
+    background: url(../assets/ilustracion-faqs.svg) center center no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+.accordion-button:focus {
+    // z-index: 3;
+    border-color: none;
+    // outline: 0!important;
+    box-shadow: none;
+ }
+ .accordion-button {
+    font-weight: 700;
+ }
+ .accordion-button:not(.collapsed) {
+    background-color: $rosa;
+    color: #fff;
+ }
+ .accordion-button:not(.collapsed)::after {
+    content: "\f077";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #fff;
+    background-image: none;
+}
+.accordion-button.collapsed::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: $rosa;
+    background-image: none;
+}

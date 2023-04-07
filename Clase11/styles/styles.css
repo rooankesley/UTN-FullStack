@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;900&family=Open+Sans:wght@400;700&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a, .btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: #fff;
+}
+
+.pre-text {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: #E21982;
+}
+
+.btn__login {
+  background: #E21982;
+  color: #E8E8E8;
+  width: 150px;
+}
+
+.btn__login:hover,
+.btn__login:active:hover {
+  background: #860f4d;
+  color: #E8E8E8;
+  border-color: #860f4d;
+}
+
+.main {
+  background: url(../assets/banner-principal.jpg) center top no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}
+
+.btn__start {
+  background: #E21982;
+  color: #E8E8E8;
+}
+
+.btn__start:hover,
+.btn__start:active:hover {
+  background: #860f4d;
+  color: #E8E8E8;
+  border-color: #860f4d;
+}
+
+h1 {
+  color: #E8E8E8;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+h2 {
+  color: #E8E8E8;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.knowUs {
+  min-height: 400px;
+  background-color: #E8E8E8;
+}
+
+.knowUs h1 {
+  color: #22193F;
+  font-size: 28px;
+}
+
+.text-knowUs {
+  text-align: center;
+}
+
+.text-knowUs p {
+  font-size: 22px;
+}
+
+.text-knowUs b,
+.text-knowUs strong {
+  font-size: 22px;
+}
+
+.helpBlock {
+  min-height: 435px;
+}
+
+.helpBlock h1 {
+  color: #22193F;
+}
+
+.helpBlock .icon {
+  width: 100px;
+  height: 100px;
+}
+
+.iconHelp {
+  background: url(../assets/icono-preguntas.svg) center center no-repeat;
+  background-size: contain;
+}
+
+.iconProfessionals {
+  background: url(../assets/icono-profesionales.svg) center center no-repeat;
+  background-size: contain;
+}
+
+.iconSchedule {
+  background: url(../assets/icono-agenda.svg) center center no-repeat;
+  background-size: contain;
+}
+
+.text-HelpBlock {
+  text-align: center;
+}
+
+.text-HelpBlock p {
+  font-size: 22px;
+}
+
+.text-HelpBlock b,
+.text-HelpBlock strong {
+  font-size: 28px;
+  color: #E21982;
+}
+
+.callToAction {
+  min-height: 140px;
+  background-color: #E21982;
+  color: #fff;
+}
+
+.callToAction h1 {
+  font-size: 23px;
+}
+
+.btn__calltoaction {
+  background: #E21982;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn__calltoaction:hover,
+.btn__calltoaction:active:hover {
+  background: #860f4d;
+  color: #fff;
+  border-color: #fff;
+}
+
+.faqs {
+  min-height: 670px;
+  background-color: #E8E8E8;
+}
+
+.faqs h1 {
+  color: #22193F;
+}
+
+.img__faqs {
+  background: url(../assets/ilustracion-faqs.svg) center center no-repeat;
+  background-size: contain;
+  height: 500px;
+}
+
+.accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.accordion-button {
+  font-weight: 700;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #E21982;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "\f077";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #fff;
+  background-image: none;
+}
+
+.accordion-button.collapsed::after {
+  content: "\f078";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #E21982;
+  background-image: none;
+}
+
+.callBanner {
+  min-height: 430px;
+  background: url(../assets/banner-secundario.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+.btn__callBanner {
+  background: #E21982;
+  color: #E8E8E8;
+}
+
+.btn__callBanner:hover,
+.btn__callBanner:active:hover {
+  background: #860f4d;
+  color: #E8E8E8;
+  border-color: #860f4d;
+}
+
+.callBanner h1 {
+  color: #E8E8E8;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.footer {
+  min-height: 190px;
+  background-color: #22193F;
+  font-size: 14px;
+}
+
+.footer a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.socialIcon {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E21982;
+}
+
+.footerCopyright {
+  font-size: 12px;
+  color: #E8E8E8;
+  text-align: center;
+  border-top: 1px solid #E8E8E8;
+}/*# sourceMappingURL=styles.css.map */
