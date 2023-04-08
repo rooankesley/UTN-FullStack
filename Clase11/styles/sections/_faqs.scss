@@ -8,7 +8,8 @@
 .img__faqs {
     background: url(../assets/ilustracion-faqs.svg) center center no-repeat;
     background-size: contain;
-    height: 500px;
+    min-height: 350px;
+    min-width: 350px;
 }
 .accordion-button:focus {
     // z-index: 3;
