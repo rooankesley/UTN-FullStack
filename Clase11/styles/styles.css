@@ -4,11 +4,6 @@
   font-size: 16px;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-}
-
 a, .btn {
   font-family: "Nunito", sans-serif;
   font-weight: 700 !important;
@@ -21,6 +16,18 @@ a, .btn {
   font-weight: 200;
   font-size: 12px;
   color: #E21982;
+}
+
+#loginModal .circledLoginIcon {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #E21982;
+  color: #E21982;
+}
+
+#loginModal a {
+  color: #E21982;
+  text-decoration: none;
 }
 
 .btn__login {
