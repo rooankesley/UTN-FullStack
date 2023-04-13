@@ -1,0 +1,46 @@
+nav {
+    background-color: aliceblue;
+    height: 100px;
+}
+.logo {
+    background: url(assets/simpsons_logo.png) center center no-repeat;
+    width: 150px;
+    aspect-ratio: 16 / 9;
+    background-size: contain;
+}
+.home__img {
+    background: url(assets/simpsons__home.png) center center no-repeat;
+    min-width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: contain;
+}
+#home h1 {
+    text-align: center;
+}
+div#refresh {
+    position: fixed;
+    margin-right: -80%;
+}
+.img__character {
+    /* background: url(https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FRalphWiggum.png?1497567511523) center center no-repeat; */
+    min-height: 300px;
+    aspect-ratio: 9 / 16;
+    background-size: contain;
+}
+#img__left, #img__right {
+    display: none;
+    min-width: 300px;
+}
+.container__quote {
+    height: calc(100vh - 100px);
+    margin-top: 50px;
+}
+.box__quotion {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+h1#quote {
+    text-align: center;
+}
